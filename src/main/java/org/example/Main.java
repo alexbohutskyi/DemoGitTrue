@@ -5,8 +5,17 @@ package org.example;
 public class Main {
     public static void main(String[] args) {
         //Git flow
-        System.out.printf("New feature development");
-        System.out.printf("Release new feature");
-
-        }
+        System.out.println("New feature development");
+        System.out.println("Release new feature");
+        login();
     }
+
+    public static void login() {
+        String username = "";
+        String password ="";
+
+        System.out.println("username = " + username);
+        System.out.println("password = " + password);
+        }
+}
+
