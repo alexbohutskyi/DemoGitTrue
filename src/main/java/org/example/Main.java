@@ -6,7 +6,6 @@ public class Main {
     public static void main(String[] args) {
         //Git flow
         System.out.printf("New feature development");
-        System.out.printf("Release new feature");
 
         }
     }
